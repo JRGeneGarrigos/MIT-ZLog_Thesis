@@ -1,0 +1,3 @@
+1 San_Mateo Tokio 15/5/2017 27/5/2017 10
+2 Rotterdam Tokio 16/5/2017 28/5/2017 12
+3 Cape_Town Tokio 15/5/2017 29/5/2017 20

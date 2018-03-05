@@ -1,0 +1,188 @@
+Option # 1, which costs 8820 $:
+
+     Order Mon 15 May Tue 16 May Wed 17 May Thu 18 May Fri 19 May Sat 20 May  \
+0  Order 1       1->2       Wait       Wait       2->5    Transit       5->4   
+1  Order 2          X       Wait       3->4    Transit    Transit       Wait   
+2  Order 3       Wait       Wait       Wait       Wait       Wait       5->4   
+
+  Sun 21 May Mon 22 May Tue 23 May Wed 24 May Thu 25 May Fri 26 May  \
+0       Wait       4->6    Transit    Transit        End          X   
+1       Wait       4->6    Transit    Transit        End          X   
+2       Wait       4->6    Transit    Transit        End          X   
+
+  Sat 27 May Sun 28 May Mon 29 May  
+0          X          X          X  
+1          X          X          X  
+2          X          X          X  
+
+
+Option # 2, which costs 8820 $:
+
+     Order Mon 15 May Tue 16 May Wed 17 May Thu 18 May Fri 19 May Sat 20 May  \
+0  Order 1       1->2       Wait       Wait       2->5    Transit       5->4   
+1  Order 2          X       Wait       3->5    Transit    Transit       5->4   
+2  Order 3       Wait       Wait       Wait       Wait       Wait       5->4   
+
+  Sun 21 May Mon 22 May Tue 23 May Wed 24 May Thu 25 May Fri 26 May  \
+0       Wait       4->6    Transit    Transit        End          X   
+1       Wait       4->6    Transit    Transit        End          X   
+2       Wait       4->6    Transit    Transit        End          X   
+
+  Sat 27 May Sun 28 May Mon 29 May  
+0          X          X          X  
+1          X          X          X  
+2          X          X          X  
+
+
+Option # 3, which costs 8840 $:
+
+     Order Mon 15 May Tue 16 May Wed 17 May Thu 18 May Fri 19 May Sat 20 May  \
+0  Order 1       1->2       Wait       2->5    Transit       Wait       5->4   
+1  Order 2          X       Wait       3->4    Transit    Transit       Wait   
+2  Order 3       Wait       Wait       Wait       Wait       Wait       5->4   
+
+  Sun 21 May Mon 22 May Tue 23 May Wed 24 May Thu 25 May Fri 26 May  \
+0       Wait       4->6    Transit    Transit        End          X   
+1       Wait       4->6    Transit    Transit        End          X   
+2       Wait       4->6    Transit    Transit        End          X   
+
+  Sat 27 May Sun 28 May Mon 29 May  
+0          X          X          X  
+1          X          X          X  
+2          X          X          X  
+
+
+Option # 4, which costs 8840 $:
+
+     Order Mon 15 May Tue 16 May Wed 17 May Thu 18 May Fri 19 May Sat 20 May  \
+0  Order 1       1->2       Wait       2->5    Transit       Wait       5->4   
+1  Order 2          X       Wait       3->5    Transit    Transit       5->4   
+2  Order 3       Wait       Wait       Wait       Wait       Wait       5->4   
+
+  Sun 21 May Mon 22 May Tue 23 May Wed 24 May Thu 25 May Fri 26 May  \
+0       Wait       4->6    Transit    Transit        End          X   
+1       Wait       4->6    Transit    Transit        End          X   
+2       Wait       4->6    Transit    Transit        End          X   
+
+  Sat 27 May Sun 28 May Mon 29 May  
+0          X          X          X  
+1          X          X          X  
+2          X          X          X  
+
+
+Option # 5, which costs 8840 $:
+
+     Order Mon 15 May Tue 16 May Wed 17 May Thu 18 May Fri 19 May Sat 20 May  \
+0  Order 1       1->2       Wait       Wait       2->5    Transit       5->4   
+1  Order 2          X       3->4    Transit    Transit       Wait       Wait   
+2  Order 3       Wait       Wait       Wait       Wait       Wait       5->4   
+
+  Sun 21 May Mon 22 May Tue 23 May Wed 24 May Thu 25 May Fri 26 May  \
+0       Wait       4->6    Transit    Transit        End          X   
+1       Wait       4->6    Transit    Transit        End          X   
+2       Wait       4->6    Transit    Transit        End          X   
+
+  Sat 27 May Sun 28 May Mon 29 May  
+0          X          X          X  
+1          X          X          X  
+2          X          X          X  
+
+
+Option # 6, which costs 8840 $:
+
+     Order Mon 15 May Tue 16 May Wed 17 May Thu 18 May Fri 19 May Sat 20 May  \
+0  Order 1       1->2       Wait       Wait       2->5    Transit       5->4   
+1  Order 2          X       Wait       3->4    Transit    Transit       Wait   
+2  Order 3       Wait       Wait       Wait       Wait       5->4       Wait   
+
+  Sun 21 May Mon 22 May Tue 23 May Wed 24 May Thu 25 May Fri 26 May  \
+0       Wait       4->6    Transit    Transit        End          X   
+1       Wait       4->6    Transit    Transit        End          X   
+2       Wait       4->6    Transit    Transit        End          X   
+
+  Sat 27 May Sun 28 May Mon 29 May  
+0          X          X          X  
+1          X          X          X  
+2          X          X          X  
+
+
+Option # 7, which costs 8860 $:
+
+     Order Mon 15 May Tue 16 May Wed 17 May Thu 18 May Fri 19 May Sat 20 May  \
+0  Order 1       1->2       Wait       2->5    Transit       5->4       Wait   
+1  Order 2          X       Wait       3->4    Transit    Transit       Wait   
+2  Order 3       Wait       Wait       Wait       Wait       Wait       5->4   
+
+  Sun 21 May Mon 22 May Tue 23 May Wed 24 May Thu 25 May Fri 26 May  \
+0       Wait       4->6    Transit    Transit        End          X   
+1       Wait       4->6    Transit    Transit        End          X   
+2       Wait       4->6    Transit    Transit        End          X   
+
+  Sat 27 May Sun 28 May Mon 29 May  
+0          X          X          X  
+1          X          X          X  
+2          X          X          X  
+
+
+Option # 8, which costs 8860 $:
+
+     Order Mon 15 May Tue 16 May Wed 17 May Thu 18 May Fri 19 May Sat 20 May  \
+0  Order 1       1->2       Wait       2->5    Transit       Wait       5->4   
+1  Order 2          X       3->4    Transit    Transit       Wait       Wait   
+2  Order 3       Wait       Wait       Wait       Wait       Wait       5->4   
+
+  Sun 21 May Mon 22 May Tue 23 May Wed 24 May Thu 25 May Fri 26 May  \
+0       Wait       4->6    Transit    Transit        End          X   
+1       Wait       4->6    Transit    Transit        End          X   
+2       Wait       4->6    Transit    Transit        End          X   
+
+  Sat 27 May Sun 28 May Mon 29 May  
+0          X          X          X  
+1          X          X          X  
+2          X          X          X  
+
+
+Option # 9, which costs 8860 $:
+
+     Order Mon 15 May Tue 16 May Wed 17 May Thu 18 May Fri 19 May Sat 20 May  \
+0  Order 1       1->2       Wait       2->5    Transit       Wait       5->4   
+1  Order 2          X       Wait       3->4    Transit    Transit       Wait   
+2  Order 3       Wait       Wait       Wait       Wait       5->4       Wait   
+
+  Sun 21 May Mon 22 May Tue 23 May Wed 24 May Thu 25 May Fri 26 May  \
+0       Wait       4->6    Transit    Transit        End          X   
+1       Wait       4->6    Transit    Transit        End          X   
+2       Wait       4->6    Transit    Transit        End          X   
+
+  Sat 27 May Sun 28 May Mon 29 May  
+0          X          X          X  
+1          X          X          X  
+2          X          X          X  
+
+
+Option # 10, which costs 8860 $:
+
+     Order Mon 15 May Tue 16 May Wed 17 May Thu 18 May Fri 19 May Sat 20 May  \
+0  Order 1       1->2       Wait       Wait       2->5    Transit       5->4   
+1  Order 2          X       3->4    Transit    Transit       Wait       Wait   
+2  Order 3       Wait       Wait       Wait       Wait       5->4       Wait   
+
+  Sun 21 May Mon 22 May Tue 23 May Wed 24 May Thu 25 May Fri 26 May  \
+0       Wait       4->6    Transit    Transit        End          X   
+1       Wait       4->6    Transit    Transit        End          X   
+2       Wait       4->6    Transit    Transit        End          X   
+
+  Sat 27 May Sun 28 May Mon 29 May  
+0          X          X          X  
+1          X          X          X  
+2          X          X          X  
+
+
+
+Where:
+1 = San_Mateo
+2 = Houston
+3 = Rotterdam
+4 = Singapore
+5 = Cape_Town
+6 = Tokio

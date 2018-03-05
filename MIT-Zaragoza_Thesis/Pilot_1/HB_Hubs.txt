@@ -1,0 +1,14 @@
+San_Mateo Houston 1
+Houston Rotterdam 2
+Rotterdam Houston 2
+Houston Singapore 5
+Singapore Houston 5
+Rotterdam Cape_Town 3
+Cape_Town Rotterdam 3
+Houston Cape_Town 2
+Cape_Town Houston 2
+Cape_Town Singapore 1
+Singapore Cape_Town 1
+Rotterdam Singapore 3
+Singapore Rotterdam 3
+Singapore Tokio 3
